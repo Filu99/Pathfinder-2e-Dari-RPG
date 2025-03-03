@@ -4,8 +4,6 @@ let impactPoint = targetToken.center;
 let lastMessage = game.messages.contents[game.messages.contents.length - 1];
 let isHit = lastMessage.rolls[0].degreeOfSuccess;
 
-
-//Testowe pisanko sprawdzanko integracji
 if (isHit == 0 || isHit == 1){
     if( Math.floor(Math.random() * 10) < 5){impactPoint.x += 60}
     else{impactPoint.x -= 60}
