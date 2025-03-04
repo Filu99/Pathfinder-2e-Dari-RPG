@@ -100,11 +100,17 @@ const database ={
                 "modules/DKDatabase/Misc/torch.mp3"
             ]
         },
-        CalledShot :{
-            sonar_sound: [
-                "modules/DKDatabase/Abilities/StanleyKowalski/CalledShot/called_shot_sonar.mp3"
-            ]
-        }
+    },
+
+    Abilities :{
+       StanleyKowalski : {
+           called_shot: [
+               "modules/DKDatabase/Abilities/StanleyKowalski/CalledShot/called_shot_sonar.mp3"
+           ],
+           final_shot: [
+               "modules/DKDatabase/Abilities/StanleyKowalski/FinalShot/final_shot.mp3"
+           ]
+       }
     },
 
     MonsterTransformation :{
