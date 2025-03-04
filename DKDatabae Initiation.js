@@ -109,6 +109,9 @@ const database ={
            ],
            final_shot: [
                "modules/DKDatabase/Abilities/StanleyKowalski/FinalShot/final_shot.mp3"
+           ],
+           fanes_escape: [
+               "modules/DKDatabase/Abilities/StanleyKowalski/FanesEscape/fanes_escape.mp3"
            ]
        }
     },
