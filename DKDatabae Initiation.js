@@ -102,7 +102,7 @@ const database ={
         },
         CalledShot :{
             sonar_sound: [
-                "modules/DKDatabase/Misc/CalledShot/called_shot_sonar.mp3"
+                "modules/DKDatabase/Abilities/StanleyKowalski/CalledShot/called_shot_sonar.mp3"
             ]
         }
     },
