@@ -1,10 +1,12 @@
 let targetToken = Array.from(game.user.targets) [0];
 let myToken = token;
 
+let sonarSound = "DKDatabase.Misc.CalledShot.sonar_sound"
+
 new Sequence()
 
     .sound()
-    .file("DKDatabase.Misc.CalledShot.sonar_sound")
+    .file(sonarSound)
 
     .effect()
     .waitUntilFinished()
@@ -13,12 +15,18 @@ new Sequence()
     .spriteOffset({ x: 30, y: -20 })
     .scale(0.2)
 
+    .sound()
+    .file(sonarSound)
+
     .effect()
     .waitUntilFinished()
     .file("jb2a.ui.indicator.redyellow.02.03")
     .atLocation(targetToken)
     .spriteOffset({ x: -15, y: -10 })
     .scale(0.2)
+
+    .sound()
+    .file(sonarSound)
 
     .effect()
     .file("jb2a.ui.indicator.redyellow.02.03")
