@@ -34,7 +34,7 @@ new Sequence()
 
     .effect()
     .delay(2800)
-    .file("blfx.spell.cast.circles2.energy1.smoke.orange")
+    .file("blfx.spell.cast.impact.electric.lightning3.color3")
     .atLocation(myToken)
     .belowTokens()
     .scale(0.15)

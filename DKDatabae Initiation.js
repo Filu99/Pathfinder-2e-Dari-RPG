@@ -98,6 +98,9 @@ const database ={
             ],
             torch: [
                 "modules/DKDatabase/Misc/torch.mp3"
+            ],
+            smoke_puff: [
+                "modules/DKDatabase/Misc/smoke_puff.mp3"
             ]
         },
     },
