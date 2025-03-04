@@ -99,6 +99,11 @@ const database ={
             torch: [
                 "modules/DKDatabase/Misc/torch.mp3"
             ]
+        },
+        CalledShot :{
+            sonar_sound: [
+                "modules/DKDatabase/Misc/CalledShot/called_shot_sonar.mp3"
+            ]
         }
     },
 
