@@ -1,7 +1,7 @@
 let targetToken = Array.from(game.user.targets) [0];
 let myToken = token;
 
-let sonarSound = "DKDatabase.Misc.CalledShot.sonar_sound"
+let sonarSound = "DKDatabase.Abilities.StanleyKowalski.called_shot"
 
 new Sequence()
 
