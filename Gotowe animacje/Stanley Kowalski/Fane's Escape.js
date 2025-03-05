@@ -95,4 +95,31 @@ new Sequence()
     .randomSpriteRotation()
     .scale(0.5)
 
+    .effect()
+    .file(cardAnimation)
+    .delay(3650)
+    .atLocation(myToken)
+    .randomSpriteRotation()
+    .scale(0.5)
+
+    .effect()
+    .file(cardAnimation)
+    .delay(3700)
+    .atLocation(myToken)
+    .randomSpriteRotation()
+    .scale(0.5)
+
     .play()
+
+function makeInvisible(){
+    myToken.actor.update({"alpha": 0.2})
+    myToken.document.update({"alpha": 0.2})
+}
+
+function makeVisible(){
+    myToken.actor.update({"alpha": 1})
+    myToken.document.update({"alpha": 1})
+}
+
+setTimeout(makeInvisible, 3600)
+setTimeout(makeVisible, 8000)
