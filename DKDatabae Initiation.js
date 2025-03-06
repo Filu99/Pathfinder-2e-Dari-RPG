@@ -169,7 +169,7 @@ const database ={
     Animations :{
         Lootbox :{
             chest_opening: [
-                "modules/DKDatabase/Animations/Lootbox/lootbox_open.gif",
+                "modules/DKDatabase/Animations/Lootbox/lootbox_open.webm",
             ]
         }
     }

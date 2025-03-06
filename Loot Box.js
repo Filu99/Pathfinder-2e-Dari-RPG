@@ -1,10 +1,9 @@
-let tableName = "Test"
-
+let tableName = "TestItem"
+let target = token
 let tableSize = 0
-
 let lootPick
-
 let lootArray = new Array()
+
 lootArray = game.tables.getName(tableName).collections.results.entries().toArray()
 
 rangeArray = new Array()
@@ -13,7 +12,7 @@ lootArray.forEach((element) => rangeArray.push(element[1].range[1]))
 
 rangeArray.forEach((element) => tableSize += 1)
 
-console.log(rangeArray)
+//console.log(rangeArray)
 
 let randomPick = Math.floor(Math.random() * 100) + 1;
 
@@ -25,5 +24,17 @@ for(let i = 0; i < tableSize; i++) {
         break
     }
 }
-console.log(lootPick)
-console.log(lootArray[lootPick][1].text, lootArray[lootPick][1].img)
+//console.log(lootPick)
+//console.log(lootArray[lootPick][1].text, lootArray[lootPick][1].img)
+
+let lootImage = lootArray[lootPick][1].img
+
+new Sequence()
+
+    .effect()
+    .atLocation(target)
+    .file("DKDatabase.Animations.Lootbox.chest_opening")
+    .scale(0.7)
+    .spriteOffset({ x: 0, y: -150 })
+
+.play()
