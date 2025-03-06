@@ -32,9 +32,19 @@ let lootImage = lootArray[lootPick][1].img
 new Sequence()
 
     .effect()
+    .waitUntilFinished(-600)
+    .fadeIn(300)
+    .fadeOut(500)
+    .atLocation(target)
+    .file("DKDatabase.Animations.Lootbox.loot_roll")
+    .scale(0.7)
+    .spriteOffset({ x: 0, y: -100 })
+
+    .effect()
+    .fadeOut(500)
     .atLocation(target)
     .file("DKDatabase.Animations.Lootbox.chest_opening")
-    .scale(0.7)
-    .spriteOffset({ x: 0, y: -150 })
+    .scale(0.3)
+    .spriteOffset({ x: 0, y: 100 })
 
 .play()

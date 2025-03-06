@@ -173,6 +173,12 @@ const database ={
             ],
             loot_roll: [
                 "modules/DKDatabase/Animations/Lootbox/lootbox_roll.webm"
+            ],
+            smash_sound: [
+                "modules/DKDatabase/Animations/Lootbox/lootbox_smash.mp3"
+            ],
+            open_sound: [
+                "modules/DKDatabase/Animations/Lootbox/lootbox_chest_open.mp3"
             ]
         }
     }
