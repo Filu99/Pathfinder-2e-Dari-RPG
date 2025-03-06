@@ -179,6 +179,15 @@ const database ={
             ],
             open_sound: [
                 "modules/DKDatabase/Animations/Lootbox/lootbox_chest_open.mp3"
+            ],
+            spin_sound: [
+                "modules/DKDatabase/Animations/Lootbox/lootbox_spin.mp3"
+            ],
+            jackpot_sound: [
+                "modules/DKDatabase/Animations/Lootbox/lootbox_jackpot.mp3"
+            ],
+            payout_sound: [
+                "modules/DKDatabase/Animations/Lootbox/lootbox_payout.mp3"
             ]
         }
     }

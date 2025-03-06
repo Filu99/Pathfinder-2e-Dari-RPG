@@ -31,6 +31,10 @@ let lootImage = lootArray[lootPick][1].img
 
 new Sequence()
 
+    .sound()
+    .file("DKDatabase.Animations.Lootbox.smash_sound")
+    .delay(2000)
+
     .effect()
     .waitUntilFinished(-600)
     .fadeIn(300)
@@ -46,5 +50,9 @@ new Sequence()
     .file("DKDatabase.Animations.Lootbox.chest_opening")
     .scale(0.3)
     .spriteOffset({ x: 0, y: 100 })
+
+    .sound()
+    .file("DKDatabase.Animations.Lootbox.open_sound")
+    .delay(1700)
 
 .play()
