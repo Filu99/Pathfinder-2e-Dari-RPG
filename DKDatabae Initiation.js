@@ -188,6 +188,9 @@ const database ={
             ],
             payout_sound: [
                 "modules/DKDatabase/Animations/Lootbox/lootbox_payout.mp3"
+            ],
+            lever_sound: [
+                "modules/DKDatabase/Animations/Lootbox/lootbox_lever.mp3"
             ]
         }
     }
