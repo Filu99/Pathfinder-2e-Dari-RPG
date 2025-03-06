@@ -165,6 +165,13 @@ const database ={
                "modules/DKDatabase/TokenArts/StanleyKowalski/Stanley_transformed.png"
            ]
        }
+    },
+    Animations :{
+        Lootbox :{
+            chest_opening: [
+                "modules/DKDatabase/Animations/Lootbox/lootbox_open.gif",
+            ]
+        }
     }
 }
 Sequencer.Database.registerEntries("DKDatabase", database);
