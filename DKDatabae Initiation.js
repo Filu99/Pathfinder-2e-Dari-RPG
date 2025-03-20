@@ -116,6 +116,29 @@ const database ={
            fanes_escape: [
                "modules/DKDatabase/Abilities/StanleyKowalski/FanesEscape/fanes_escape.mp3"
            ]
+       },
+       AzulonBlack : {
+            persistentFire: [
+                "modules/DKDatabase/Abilities/AzulonBlack/persistentFire.mp3"
+            ],
+            elementalBlast: [
+                "modules/DKDatabase/Abilities/AzulonBlack/elementalBlast.mp3"
+            ],
+            fireCast: [
+                "modules/DKDatabase/Abilities/AzulonBlack/fireCast.mp3"
+            ],
+            fireRush: [
+                "modules/DKDatabase/Abilities/AzulonBlack/fireRush.mp3"
+            ],
+            firestorm: [
+                "modules/DKDatabase/Abilities/AzulonBlack/firestorm.mp3"
+            ],
+            ignition: [
+                "modules/DKDatabase/Abilities/AzulonBlack/ignition.mp3"
+            ],
+            persistentFire: [
+                "modules/DKDatabase/Abilities/AzulonBlack/persistentFire.mp3"
+            ]
        }
     },
 
