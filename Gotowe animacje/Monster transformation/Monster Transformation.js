@@ -24,20 +24,31 @@ if(heroData.actor.name == "Stanley Kowalski"){
     transformed = "modules/DKDatabase/TokenArts/StanleyKowalski/Stanley_transformed.png"
 }
 
+// Debugowanie, czy ścieżki są poprawnie ustawione
+console.log(`Current Image: ${myToken.actor.img}`);
+console.log(`Expected Normal: ${notTransformed}`);
+console.log(`Expected Transformed: ${transformed}`);
+
 let newImg
 
 let flag = 0
 
-if(myToken.actor.img == transformed){
+if(myToken.document.texture.src == transformed){
     newImg = notTransformed
     flag = 1
+console.log(`transformacja`);
 }
 
-if(myToken.actor.img == notTransformed){
+if(myToken.document.texture.src == notTransformed){
     newImg = transformed
     flag = 1
+console.log(`nietransformacja`);
 }
 if(flag == 1) {
+    
+    // Debugowanie nowego obrazu
+    console.log(`New Image: ${newImg}`);
+    console.log(myToken.actor.prototypeToken.texture.src);
 
     new Sequence()
         .sound()
@@ -89,7 +100,7 @@ if(flag == 1) {
         .wait(1935)
         .thenDo(() => {
             myToken.document.update({"texture.src": newImg});
-            myToken.actor.update({"img": newImg});
+            myToken.actor.update({"texture.src": newImg});
         })
 
         .play()

@@ -1,5 +1,5 @@
 let targetToken = Array.from(game.user.targets) [0];
-let myToken = sourceToken;
+let myToken = token;
 let impactPoint = targetToken.center;
 let lastMessage = game.messages.contents[game.messages.contents.length - 1];
 let isHit = lastMessage.rolls[0].degreeOfSuccess;
