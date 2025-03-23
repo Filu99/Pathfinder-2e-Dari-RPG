@@ -50,6 +50,14 @@ const database ={
             sickle_miss: [
                 "modules/DKDatabase/Mele/Sickle/sickle_miss.mp3"
             ]
+        },
+        Dagger :{
+            dagger_whoosh: [
+                "modules/DKDatabase/Mele/Dagger/Whoosh.mp3"
+            ],
+            dagger_hit: [
+                "modules/DKDatabase/Mele/Dagger/Dagger.mp3"
+            ]
         }
     },
 
