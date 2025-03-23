@@ -146,48 +146,146 @@ const database ={
         build_up: [
             "modules/DKDatabase/MonsterTransformation/monster_buildUp.mp3"
         ],
-        growl: [
+        bestial: [
             "modules/DKDatabase/MonsterTransformation/monster_growl1.mp3",
             "modules/DKDatabase/MonsterTransformation/monster_growl2.mp3",
             "modules/DKDatabase/MonsterTransformation/monster_growl3.mp3",
             "modules/DKDatabase/MonsterTransformation/monster_growl4.mp3",
             "modules/DKDatabase/MonsterTransformation/monster_growl5.mp3"
+        ],
+        Juggernaut: [
+            "modules/DKDatabase/MonsterTransformation/JuggernautTransformation.mp3"
+        ],
+        Silvertongue: [
+            "modules/DKDatabase/MonsterTransformation/SilvertongueTransformation.mp3"
+        ],
+        Sanguine: [
+            "modules/DKDatabase/MonsterTransformation/SanguineTransformation.mp3"
+        ],
+        Ogre: [
+            "modules/DKDatabase/MonsterTransformation/OgreTransformation.mp3"
+        ],
+        Dragonheart: [
+            "modules/DKDatabase/MonsterTransformation/DragonheartTransformation.mp3"
         ]
     },
 
     TokenArts :{
         AzulonBlack :{
             normal: [
-                "modules/DKDatabase/TokenArts/AzulonBlack/Azulon_normal.png"
+                "modules/DKDatabase/TokenArts/AzulonBlack/1NormalAzulon.png"
             ],
-            transformed: [
-                "modules/DKDatabase/TokenArts/AzulonBlack/Azulon_transformed.png"
+            bestial: [
+                "modules/DKDatabase/TokenArts/AzulonBlack/1BestialAzulon.png.png"
+            ],
+            juggernaut: [
+                "modules/DKDatabase/TokenArts/AzulonBlack/1JuggernautAzulon.png.png"
+            ],
+            ogre: [
+                "modules/DKDatabase/TokenArts/AzulonBlack/1OgreAzulon.png.png"
+            ],
+            sanguine: [
+                "modules/DKDatabase/TokenArts/AzulonBlack/1SanguineAzulon.png.png"
+            ],
+            silvertongue: [
+                "modules/DKDatabase/TokenArts/AzulonBlack/1SilvertongueAzulon.png.png"
+            ],
+            drakeheart: [
+                "modules/DKDatabase/TokenArts/AzulonBlack/1DrakeheartAzulon.png.png"
             ]
         },
        Giuliano :{
-            nomal: [
-                "modules/DKDatabase/TokenArts/Giuliano/Giuliano_normal.png"
+            normal: [
+                "modules/DKDatabase/TokenArts/Giuliano/1NormalGiuliano.png"
             ],
-           transformed: [
-               "modules/DKDatabase/TokenArts/Giuliano/Giuliano_transformed.png"
-           ]
+            bestial: [
+                "modules/DKDatabase/TokenArts/Giuliano/1BestialGiuliano.png"
+            ],
+            juggernaut: [
+                "modules/DKDatabase/TokenArts/Giuliano/1JuggernautGiuliano.png"
+            ],
+            ogre: [
+                "modules/DKDatabase/TokenArts/Giuliano/1OgreGiuliano.png"
+            ],
+            sanguine: [
+                "modules/DKDatabase/TokenArts/Giuliano/1SanguineGiuliano.png"
+            ],
+            silvertongue: [
+                "modules/DKDatabase/TokenArts/Giuliano/1SilvertongueGiuliano.png"
+            ],
+            drakeheart: [
+                "modules/DKDatabase/TokenArts/Giuliano/1DrakeheartGiuliano.png"
+            ]
        },
        JacobNotaisky :{
-            nomal: [
-                "modules/DKDatabase/TokenArts/JacobNotaisky/Jacob_normal.png"
+            normal: [
+                "modules/DKDatabase/TokenArts/JacobNotaisky/1NormalJacob.png"
             ],
-           transformed: [
-               "modules/DKDatabase/TokenArts/JacobNotaisky/Jacob_transformed.png"
-           ]
+            bestial: [
+                "modules/DKDatabase/TokenArts/JacobNotaisky/1BestialJacob.png"
+            ],
+            juggernaut: [
+                "modules/DKDatabase/TokenArts/JacobNotaisky/1JuggernautJacob.png"
+            ],
+            ogre: [
+                "modules/DKDatabase/TokenArts/JacobNotaisky/1OgreJacob.png"
+            ],
+            sanguine: [
+                "modules/DKDatabase/TokenArts/JacobNotaisky/1SanguineJacob.png"
+            ],
+            silvertongue: [
+                "modules/DKDatabase/TokenArts/JacobNotaisky/1SilvertongueJacob.png"
+            ],
+            drakeheart: [
+                "modules/DKDatabase/TokenArts/JacobNotaisky/1DrakeheartJacob.png"
+            ]
        },
        StanleyKowalski :{
-            nomal: [
-                "modules/DKDatabase/TokenArts/StanleyKowalski/Stanley_normal.png"
+            normal: [
+                "modules/DKDatabase/TokenArts/StanleyKowalski/1NormalStanley.png"
             ],
-           transformed: [
-               "modules/DKDatabase/TokenArts/StanleyKowalski/Stanley_transformed.png"
-           ]
-       }
+            bestial: [
+                "modules/DKDatabase/TokenArts/StanleyKowalski/1BestialStanley.png"
+            ],
+            juggernaut: [
+                "modules/DKDatabase/TokenArts/StanleyKowalski/1JuggernautStanley.png"
+            ],
+            ogre: [
+                "modules/DKDatabase/TokenArts/StanleyKowalski/1OgreStanley.png"
+            ],
+            sanguine: [
+                "modules/DKDatabase/TokenArts/StanleyKowalski/1SanguineStanley.png"
+            ],
+            silvertongue: [
+                "modules/DKDatabase/TokenArts/StanleyKowalski/1SilvertongueStanley.png"
+            ],
+            drakeheart: [
+                "modules/DKDatabase/TokenArts/StanleyKowalski/1DrakeheartStanley.png"
+            ]
+       },
+       Manfred :{
+            normal: [
+                "modules/DKDatabase/TokenArts/Manfred/1NormalManfred.png"
+            ],
+            bestial: [
+                "modules/DKDatabase/TokenArts/Manfred/1BestialManfred.png"
+            ],
+            juggernaut: [
+                "modules/DKDatabase/TokenArts/Manfred/1JuggernautManfred.png"
+            ],
+            ogre: [
+                "modules/DKDatabase/TokenArts/Manfred/1OgreManfred.png"
+            ],
+            sanguine: [
+                "modules/DKDatabase/TokenArts/Manfred/1SanguineManfred.png"
+            ],
+            silvertongue: [
+                "modules/DKDatabase/TokenArts/Manfred/1SilvertongueManfred.png"
+            ],
+            drakeheart: [
+                "modules/DKDatabase/TokenArts/Manfred/1DrakeheartManfred.png"
+            ]
+        }
     },
     Animations :{
         Lootbox :{

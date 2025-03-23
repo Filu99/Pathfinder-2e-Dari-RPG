@@ -100,7 +100,6 @@ if(flag == 1) {
         .wait(1935)
         .thenDo(() => {
             myToken.document.update({"texture.src": newImg});
-            myToken.actor.update({"texture.src": newImg});
         })
 
         .play()
