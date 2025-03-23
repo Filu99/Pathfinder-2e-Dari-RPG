@@ -6,22 +6,22 @@ let transformed = ""
 
 if(heroData.actor.name == "Giuliano"){
     notTransformed = "modules/DKDatabase/TokenArts/Giuliano/1NormalGiuliano.png"
-    transformed = "modules/DKDatabase/TokenArts/Giuliano/1BestialGiuliano.png"
+    transformed = "modules/DKDatabase/TokenArts/Giuliano/1DrakeheartGiuliano.png"
 }
 
 if(heroData.actor.name == "Azulon Black"){
     notTransformed = "modules/DKDatabase/TokenArts/AzulonBlack/1NormalAzulon.png"
-    transformed = "modules/DKDatabase/TokenArts/AzulonBlack/1BestialAzulon.png"
+    transformed = "modules/DKDatabase/TokenArts/AzulonBlack/1DrakeheartAzulon.png"
 }
 
 if(heroData.actor.name == "Jacob Notaisky"){
     notTransformed = "modules/DKDatabase/TokenArts/JacobNotaisky/1NormalJacob.png"
-    transformed = "modules/DKDatabase/TokenArts/JacobNotaisky/1BestialJacob.png"
+    transformed = "modules/DKDatabase/TokenArts/JacobNotaisky/1DrakeheartJacob.png"
 }
 
 if(heroData.actor.name == "Stanley Kowalski"){
     notTransformed = "modules/DKDatabase/TokenArts/StanleyKowalski/1NormalStanley.png"
-    transformed = "modules/DKDatabase/TokenArts/StanleyKowalski/1BestialStanley.png"
+    transformed = "modules/DKDatabase/TokenArts/StanleyKowalski/1DrakeheartStanley.png"
 }
 
 // Debugowanie, czy ścieżki są poprawnie ustawione
@@ -55,7 +55,7 @@ if(flag == 1) {
         .file("DKDatabase.MonsterTransformation.build_up")
 
         .sound()
-        .file("DKDatabase.MonsterTransformation.bestial")
+        .file("DKDatabase.MonsterTransformation.drakeheart")
         .delay(1935)
         .playIf(newImg == transformed)
 

@@ -153,20 +153,20 @@ const database ={
             "modules/DKDatabase/MonsterTransformation/monster_growl4.mp3",
             "modules/DKDatabase/MonsterTransformation/monster_growl5.mp3"
         ],
-        Juggernaut: [
+        juggernaut: [
             "modules/DKDatabase/MonsterTransformation/JuggernautTransformation.mp3"
         ],
-        Silvertongue: [
+        silvertongue: [
             "modules/DKDatabase/MonsterTransformation/SilvertongueTransformation.mp3"
         ],
-        Sanguine: [
+        sanguine: [
             "modules/DKDatabase/MonsterTransformation/SanguineTransformation.mp3"
         ],
-        Ogre: [
+        ogre: [
             "modules/DKDatabase/MonsterTransformation/OgreTransformation.mp3"
         ],
-        Dragonheart: [
-            "modules/DKDatabase/MonsterTransformation/DragonheartTransformation.mp3"
+        drakeheart: [
+            "modules/DKDatabase/MonsterTransformation/DrakeheartTransformation.mp3"
         ]
     },
 
