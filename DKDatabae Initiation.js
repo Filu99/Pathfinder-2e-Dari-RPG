@@ -58,6 +58,14 @@ const database ={
             dagger_hit: [
                 "modules/DKDatabase/Mele/Dagger/Dagger.mp3"
             ]
+        },
+        Rapier :{
+            rapier_hit: [
+                "modules/DKDatabase/Mele/Rapier/RapierHit.mp3"
+            ],
+            rapier_miss: [
+                "modules/DKDatabase/Mele/Rapier/RapierMiss.mp3"
+            ]
         }
     },
 
@@ -79,6 +87,17 @@ const database ={
             ],
             dagger_miss: [
                 "modules/DKDatabase/Ranged/Dagger/DaggerThrowMiss.mp3"
+            ]
+        },
+        Bow :{
+            bow_load: [
+                "modules/DKDatabase/Ranged/Bow/BowLoad.mp3"
+            ],
+            bow_hit: [
+                "modules/DKDatabase/Ranged/Bow/BowHit.mp3"
+            ],
+            bow_miss: [
+                "modules/DKDatabase/Ranged/Bow/BowMiss.mp3"
             ]
         }
     },

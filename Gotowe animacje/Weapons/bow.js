@@ -12,18 +12,33 @@ if (isHit == 0 || isHit == 1){
     else{impactPoint.y -= 60}
 }
 
-
-if(isMelee){
     new Sequence()
 
         .sound()
-        .file("DKDatabase.Mele.Dagger.dagger_whoosh")
+        .file("DKDatabase.Ranged.Bow.bow_load")
+        .startTime(1000)
 
         .effect()
-        .file("jb2a.dagger.melee.02.white")
+        .file("blfx.weapon.range.bow3.attack1.color1")
         .atLocation(myToken)
-        .moveTowards(impactPoint)
-        .wait(700)
+        .rotateTowards(impactPoint)
+        .scaleToObject(1.5)
+        .waitUntilFinished(-1200)
+
+        .sound()
+        .playIf(isHit == 2 || isHit == 3)
+        .file("DKDatabase.Ranged.Bow.bow_hit")
+
+        .sound()
+        .playIf(isHit == 0 || isHit == 1)
+        .file("DKDatabase.Ranged.Bow.bow_miss")
+        .startTime(700)
+
+        .effect()
+        .file("jb2a.arrow.physical.white.01")
+        .atLocation(myToken)
+        .stretchTo(impactPoint)
+        .waitUntilFinished(-1300)
 
         .effect()
         .playIf(isHit == 2 || isHit == 3)
@@ -32,11 +47,6 @@ if(isMelee){
         .scale(0.5)
         .rotateTowards(myToken)
         .rotate(180)
-
-        .sound()
-        .playIf(isHit == 2 || isHit == 3)
-        .file("DKDatabase.Mele.Dagger.dagger_hit")
-
 
         .effect()
         .playIf(isHit == 0 || isHit == 1)
@@ -52,50 +62,3 @@ if(isMelee){
 
 
         .play()
-}
-else {
-    new Sequence()
-
-
-
-    .effect()
-    .file("jb2a.dagger.throw.01.white")
-    .atLocation(myToken)
-    .stretchTo(impactPoint)
-    .wait(180)
-
-    .sound()
-    .playIf(isHit == 2 || isHit == 3)
-    .file("DKDatabase.Ranged.Dagger.dagger_hit")
-    .startTime(1000)
-
-    .sound()
-    .playIf(isHit == 0 || isHit == 1)
-    .file("DKDatabase.Ranged.Dagger.dagger_miss")
-    .startTime(1000)
-
-    .wait(550)
-
-    .effect()
-    .playIf(isHit == 2 || isHit == 3)
-    .file("jb2a.liquid.splash_side02.red")
-    .attachTo(impactPoint)
-    .scale(0.5)
-    .rotateTowards(myToken)
-    .rotate(180)
-
-    .effect()
-    .playIf(isHit == 0 || isHit == 1)
-    .file("jb2a.ui.miss.white")
-    .atLocation(impactPoint)
-    .scale(2)
-
-    .effect()
-    .playIf(isHit == 3)
-    .attachTo(impactPoint)
-    .file("jb2a.ui.critical.red")
-    .scale(1)
-
-
-    .play()
-}
