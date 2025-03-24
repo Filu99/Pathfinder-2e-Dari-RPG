@@ -72,6 +72,14 @@ const database ={
             sling_throw: [
                 "modules/DKDatabase/Ranged/Sling/sling_throw.mp3"
             ]
+        },
+        Dagger :{
+            dagger_hit: [
+                "modules/DKDatabase/Ranged/Dagger/DaggerThrowHit.mp3"
+            ],
+            dagger_miss: [
+                "modules/DKDatabase/Ranged/Dagger/DaggerThrowMiss.mp3"
+            ]
         }
     },
 

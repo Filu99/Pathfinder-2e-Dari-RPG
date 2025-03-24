@@ -53,3 +53,49 @@ if(isMelee){
 
         .play()
 }
+else {
+    new Sequence()
+
+
+
+    .effect()
+    .file("jb2a.dagger.throw.01.white")
+    .atLocation(myToken)
+    .stretchTo(impactPoint)
+    .wait(180)
+
+    .sound()
+    .playIf(isHit == 2 || isHit == 3)
+    .file("DKDatabase.Ranged.Dagger.dagger_hit")
+    .startTime(1000)
+
+    .sound()
+    .playIf(isHit == 0 || isHit == 1)
+    .file("DKDatabase.Ranged.Dagger.dagger_miss")
+    .startTime(1000)
+
+    .wait(550)
+
+    .effect()
+    .playIf(isHit == 2 || isHit == 3)
+    .file("jb2a.liquid.splash_side02.red")
+    .attachTo(impactPoint)
+    .scale(0.5)
+    .rotateTowards(myToken)
+    .rotate(180)
+
+    .effect()
+    .playIf(isHit == 0 || isHit == 1)
+    .file("jb2a.ui.miss.white")
+    .atLocation(impactPoint)
+    .scale(2)
+
+    .effect()
+    .playIf(isHit == 3)
+    .attachTo(impactPoint)
+    .file("jb2a.ui.critical.red")
+    .scale(1)
+
+
+    .play()
+}
